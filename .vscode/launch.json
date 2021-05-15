@@ -1,0 +1,16 @@
+{
+    "configurations": [
+    {
+        "name": "debug",
+        "program": "${workspaceFolder}/app.js",
+        "request": "launch",
+        "skipFiles": [
+            "<node_internals>/**"
+        ],
+        "type": "pwa-node",
+        "restart": true,
+        "runtimeExecutable": "nodemon",
+        "console":"integratedTerminal"
+    }
+    ]
+}
